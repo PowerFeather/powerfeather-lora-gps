@@ -3448,7 +3448,7 @@
 			(uuid "c9546565-bdc4-417f-93f9-a09835db75a7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.905 360)
+			(at 0 1.905 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "74f9298f-b69b-41ec-8c32-233439f01ab7")
@@ -3522,7 +3522,7 @@
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J3"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "3b2be038-13ca-4a44-a97f-d4386cdfcdba")
@@ -3534,7 +3534,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 0 9.95 360)
+			(at 0 9.95 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0a84b826-9eff-49ee-a203-a73e0a6c3211")

@@ -1,5 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "PowerFeather")(type "KiCad")(uri "${KIPRJMOD}/../../esp32s3-powerfeather/hardware/lib/PowerFeather.kicad_sym")(options "")(descr ""))
-  (lib (name "PowerFeather_LoRa")(type "KiCad")(uri "${KIPRJMOD}/../PowerFeather_LoRa.kicad_sym")(options "")(descr ""))
+  (lib (name "PowerFeather_LoRa_GPS")(type "KiCad")(uri "${KIPRJMOD}/libs/symbol.kicad_sym")(options "")(descr ""))
 )
