@@ -4855,7 +4855,7 @@
 		)
 		(fp_arc
 			(start 1.27 50.910002)
-			(mid -0.603834 50.133835)
+			(mid -0.603834 50.133836)
 			(end -1.38 48.260002)
 			(stroke
 				(width 0.12)
@@ -6419,6 +6419,18 @@
 		(fill none)
 		(layer "F.Fab")
 		(uuid "46edf91b-2ce7-4987-ba2b-bf26787a0847")
+	)
+	(gr_text "ANT"
+		(at 133.98 118.55 0)
+		(layer "F.SilkS")
+		(uuid "7f9c1f2e-439c-438e-9d1d-4489856c79f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 141.085 82.595)
