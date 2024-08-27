@@ -1,6 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "PowerFeather_LoRa_GPS")(type "KiCad")(uri "${KIPRJMOD}/lib/footprint")(options "")(descr ""))
-  (lib (name "PowerFeather")(type "KiCad")(uri "${KIPRJMOD}/../../esp32s3-powerfeather/hardware/lib/footprints/PowerFeather/")(options "")(descr ""))
   (lib (name "PowerFeather_KiCAD_Lib")(type "KiCad")(uri "${KIPRJMOD}/powerfeather-kicad-lib/footprint")(options "")(descr ""))
 )
