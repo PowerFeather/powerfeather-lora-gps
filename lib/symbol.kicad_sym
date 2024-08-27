@@ -58,7 +58,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -12.7 16.256 0)
+			(at -0.762 14.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66,8 +66,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RA-01H"
-			(at -12.7 -17.78 0)
+		(property "Value" "Lora126x"
+			(at -4.826 12.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -75,8 +75,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PowerFeather_LoRa:XCVR_RA-01H"
-			(at 0 0 0)
+		(property "Footprint" "PowerFeather_LoRa_GPS:Lora126x"
+			(at 0 -14.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86,7 +86,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 3.81 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -95,7 +95,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 3.81 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -105,8 +105,8 @@
 		)
 		(symbol "Lora126X_0_0"
 			(rectangle
-				(start -12.7 -15.24)
-				(end 12.7 15.24)
+				(start -8.89 11.43)
+				(end 8.89 -12.446)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -118,289 +118,289 @@
 		)
 		(symbol "Lora126X_1_0"
 			(pin power_in line
-				(at 17.78 -12.7 180)
-				(length 5.08)
+				(at 11.43 -10.16 180)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 17.78 -12.7 180)
-				(length 5.08)
+				(at 11.43 -10.16 180)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "10"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -1.27 0)
-				(length 5.08)
+				(at -11.43 0 0)
+				(length 2.54)
 				(name "DIO3"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "11"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin no_connect line
-				(at -17.78 -11.43 0)
-				(length 5.08)
+				(at -11.43 -10.16 0)
+				(length 2.54)
 				(name "NC"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "12"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 17.78 12.7 180)
-				(length 5.08)
+				(at 11.43 8.89 180)
+				(length 2.54)
 				(name "3.3V"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "13"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin no_connect line
-				(at -17.78 -6.35 0)
-				(length 5.08)
+				(at -11.43 -5.08 0)
+				(length 2.54)
 				(name "NC"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "14"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 1.27 0)
-				(length 5.08)
+				(at -11.43 2.54 0)
+				(length 2.54)
 				(name "DIO1"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "15"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 3.81 0)
-				(length 5.08)
+				(at -11.43 5.08 0)
+				(length 2.54)
 				(name "BUSY"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "16"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 17.78 -5.08 180)
-				(length 5.08)
+				(at 11.43 -6.35 180)
+				(length 2.54)
 				(name "MISO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at 17.78 -2.54 180)
-				(length 5.08)
+				(at 11.43 -3.81 180)
+				(length 2.54)
 				(name "MOSI"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin input clock
-				(at 17.78 2.54 180)
-				(length 5.08)
+				(at 11.43 1.27 180)
+				(length 2.54)
 				(name "SCK"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at 17.78 0 180)
-				(length 5.08)
+				(at 11.43 -1.27 180)
+				(length 2.54)
 				(name "NSS"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at -17.78 10.16 0)
-				(length 5.08)
+				(at -11.43 8.89 0)
+				(length 2.54)
 				(name "RESET"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "6"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin no_connect line
-				(at -17.78 -8.89 0)
-				(length 5.08)
+				(at -11.43 -7.62 0)
+				(length 2.54)
 				(name "NC"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "7"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 17.78 -12.7 180)
-				(length 5.08)
+				(at 11.43 -10.16 180)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "8"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 7.62 180)
-				(length 5.08)
+				(at 11.43 5.08 180)
+				(length 2.54)
 				(name "ANT"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "9"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
