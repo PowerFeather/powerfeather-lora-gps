@@ -3304,6 +3304,12 @@
 		)
 	)
 	(junction
+		(at 80.01 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f62f439-d4a7-4b49-b246-f2a2cd86dffb")
+	)
+	(junction
 		(at 182.88 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3314,6 +3320,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18f28937-6b5b-4611-b509-a35fcc25af36")
+	)
+	(junction
+		(at 102.87 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ad17b22-2568-4269-8a17-6072fd50d376")
 	)
 	(junction
 		(at 81.28 111.76)
@@ -3338,6 +3350,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5186d087-2ed8-4744-a83d-ed7af5b73665")
+	)
+	(junction
+		(at 229.87 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "533d6ca8-c99e-42bd-b6e6-a6325279b3bf")
 	)
 	(junction
 		(at 165.1 57.15)
@@ -3555,16 +3573,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.564 55.88) (xy 77.47 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "181c6de3-b58c-4947-9df0-2bbab9a98645")
-	)
-	(wire
-		(pts
 			(xy 199.39 68.58) (xy 212.09 68.58)
 		)
 		(stroke
@@ -3632,6 +3640,16 @@
 			(type default)
 		)
 		(uuid "22f3aa0b-65b4-4737-98d9-73a907239bd5")
+	)
+	(wire
+		(pts
+			(xy 67.31 60.96) (xy 77.47 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26de8adf-3926-4fd5-b5aa-10f497cbfb14")
 	)
 	(wire
 		(pts
@@ -3875,7 +3893,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 35.56) (xy 229.87 40.64)
+			(xy 229.87 35.56) (xy 229.87 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3952,6 +3970,16 @@
 			(type default)
 		)
 		(uuid "7c9e1177-899a-4881-8999-766a2c2f5cfe")
+	)
+	(wire
+		(pts
+			(xy 229.87 38.1) (xy 229.87 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e960e98-30ac-4bfc-a2d5-608eec2f3b93")
 	)
 	(wire
 		(pts
@@ -4072,6 +4100,16 @@
 			(type default)
 		)
 		(uuid "9ac5c2de-aecd-4dce-9b9d-964e80b90097")
+	)
+	(wire
+		(pts
+			(xy 67.31 55.88) (xy 77.47 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ad5efad-cd0b-437b-8cc7-5742e538c1c1")
 	)
 	(wire
 		(pts
@@ -4275,16 +4313,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 60.96) (xy 67.564 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cebc1fa3-2f22-4f5c-8f00-ef7ec87f273e")
-	)
-	(wire
-		(pts
 			(xy 83.82 109.22) (xy 83.82 124.46)
 		)
 		(stroke
@@ -4325,7 +4353,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 43.18) (xy 104.14 43.18)
+			(xy 93.98 43.18) (xy 102.87 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4355,6 +4383,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 58.42) (xy 77.47 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7598ccb-b83b-42e5-a268-66038bdab77e")
+	)
+	(wire
+		(pts
 			(xy 128.27 167.64) (xy 128.27 173.99)
 		)
 		(stroke
@@ -4362,6 +4400,16 @@
 			(type default)
 		)
 		(uuid "da3e0eae-afd6-4b05-bd32-337112ac4378")
+	)
+	(wire
+		(pts
+			(xy 102.87 43.18) (xy 104.14 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd80586c-aeca-4629-bc19-842ebff7379f")
 	)
 	(wire
 		(pts
@@ -4412,16 +4460,6 @@
 			(type default)
 		)
 		(uuid "e57378bc-fe64-49d1-bbee-36ba3e638d49")
-	)
-	(wire
-		(pts
-			(xy 67.564 58.42) (xy 77.47 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7b68407-5170-47e8-aeb3-04fe17b83c5a")
 	)
 	(wire
 		(pts
@@ -6663,6 +6701,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 102.87 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72fc6636-5d88-4e6e-819f-16bebd7fb375")
+		(property "Reference" "#FLG05"
+			(at 102.87 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 102.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 102.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49cf0984-6531-4e93-9598-65b0c75a9ce2")
+		)
+		(instances
+			(project "powerfeather-lora-gps-reference"
+				(path "/2d1d9df7-6bdc-4187-87fe-c5aa58e0b477"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Crystal")
 		(at 182.88 52.07 270)
 		(mirror x)
@@ -7107,7 +7211,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 62.484 58.42 0)
+		(at 62.23 58.42 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7116,7 +7220,7 @@
 		(dnp yes)
 		(uuid "b482ce83-45ea-4d85-8dd2-9b21b387dece")
 		(property "Reference" "J8"
-			(at 59.944 57.1499 0)
+			(at 59.69 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7125,7 +7229,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 59.944 59.6899 0)
+			(at 59.69 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7134,7 +7238,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 62.484 58.42 0)
+			(at 62.23 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7143,7 +7247,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.484 58.42 0)
+			(at 62.23 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7152,7 +7256,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 62.484 58.42 0)
+			(at 62.23 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7540,6 +7644,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 229.87 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c544ec34-6b89-46fd-b7ec-cde77d9d8d37")
+		(property "Reference" "#FLG04"
+			(at 231.775 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 233.68 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 229.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f2b1006-b070-4e4d-b78d-d2b12ed56254")
+		)
+		(instances
+			(project ""
+				(path "/2d1d9df7-6bdc-4187-87fe-c5aa58e0b477"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 227.33 144.78 0)
 		(unit 1)
@@ -7767,7 +7938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PowerFeather_LoRa:SMA_Edge"
+		(property "Footprint" "PowerFeather_LoRa_GPS:SMA_Edge"
 			(at 110.49 158.75 0)
 			(effects
 				(font
@@ -7871,6 +8042,71 @@
 			(project ""
 				(path "/2d1d9df7-6bdc-4187-87fe-c5aa58e0b477"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 80.01 44.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec781bf0-6529-4a7f-b993-035391ca0a90")
+		(property "Reference" "#FLG06"
+			(at 80.01 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 80.01 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 80.01 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95366db3-f493-426e-b422-78cdf13e58a7")
+		)
+		(instances
+			(project "powerfeather-lora-gps-reference"
+				(path "/2d1d9df7-6bdc-4187-87fe-c5aa58e0b477"
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
